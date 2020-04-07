@@ -1,0 +1,69 @@
+Language model created by QuickLM on Mon Feb  3 06:42:20 EST 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 11 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=22
+ngram 3=11
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.8195 ду -0.2218
+-1.8195 нол -0.2218
+-1.8195 нуҳ -0.2218
+-1.8195 панҷ -0.2218
+-1.8195 се -0.2218
+-1.8195 сифр -0.2218
+-1.8195 чор -0.2218
+-1.8195 шаш -0.2218
+-1.8195 як -0.2218
+-1.8195 ҳафт -0.2218
+-1.8195 ҳашт -0.2218
+
+\2-grams:
+-1.3424 <s> ду 0.0000
+-1.3424 <s> нол 0.0000
+-1.3424 <s> нуҳ 0.0000
+-1.3424 <s> панҷ 0.0000
+-1.3424 <s> се 0.0000
+-1.3424 <s> сифр 0.0000
+-1.3424 <s> чор 0.0000
+-1.3424 <s> шаш 0.0000
+-1.3424 <s> як 0.0000
+-1.3424 <s> ҳафт 0.0000
+-1.3424 <s> ҳашт 0.0000
+-0.3010 ду </s> -0.3010
+-0.3010 нол </s> -0.3010
+-0.3010 нуҳ </s> -0.3010
+-0.3010 панҷ </s> -0.3010
+-0.3010 се </s> -0.3010
+-0.3010 сифр </s> -0.3010
+-0.3010 чор </s> -0.3010
+-0.3010 шаш </s> -0.3010
+-0.3010 як </s> -0.3010
+-0.3010 ҳафт </s> -0.3010
+-0.3010 ҳашт </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ду </s>
+-0.3010 <s> нол </s>
+-0.3010 <s> нуҳ </s>
+-0.3010 <s> панҷ </s>
+-0.3010 <s> се </s>
+-0.3010 <s> сифр </s>
+-0.3010 <s> чор </s>
+-0.3010 <s> шаш </s>
+-0.3010 <s> як </s>
+-0.3010 <s> ҳафт </s>
+-0.3010 <s> ҳашт </s>
+
+\end\
